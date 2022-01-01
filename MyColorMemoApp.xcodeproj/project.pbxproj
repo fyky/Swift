@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DD169172780983600E1BCD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD169162780983600E1BCD8 /* AppDelegate.swift */; };
+		4DD169192780983600E1BCD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD169182780983600E1BCD8 /* SceneDelegate.swift */; };
+		4DD1691B2780983600E1BCD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD1691A2780983600E1BCD8 /* ViewController.swift */; };
+		4DD1691E2780983600E1BCD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD1691C2780983600E1BCD8 /* Main.storyboard */; };
+		4DD169202780983800E1BCD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DD1691F2780983800E1BCD8 /* Assets.xcassets */; };
+		4DD169232780983800E1BCD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD169212780983800E1BCD8 /* LaunchScreen.storyboard */; };
+		4DD1692E2780983800E1BCD8 /* MyColorMemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD1692D2780983800E1BCD8 /* MyColorMemoAppTests.swift */; };
+		4DD169382780983800E1BCD8 /* MyColorMemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD169372780983800E1BCD8 /* MyColorMemoAppUITests.swift */; };
+		4DD1693A2780983800E1BCD8 /* MyColorMemoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD169392780983800E1BCD8 /* MyColorMemoAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DD1692A2780983800E1BCD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DD1690B2780983600E1BCD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DD169122780983600E1BCD8;
+			remoteInfo = MyColorMemoApp;
+		};
+		4DD169342780983800E1BCD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DD1690B2780983600E1BCD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DD169122780983600E1BCD8;
+			remoteInfo = MyColorMemoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DD169132780983600E1BCD8 /* MyColorMemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyColorMemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD169162780983600E1BCD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DD169182780983600E1BCD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4DD1691A2780983600E1BCD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DD1691D2780983600E1BCD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DD1691F2780983800E1BCD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DD169222780983800E1BCD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DD169242780983800E1BCD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD169292780983800E1BCD8 /* MyColorMemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyColorMemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD1692D2780983800E1BCD8 /* MyColorMemoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColorMemoAppTests.swift; sourceTree = "<group>"; };
+		4DD169332780983800E1BCD8 /* MyColorMemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyColorMemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD169372780983800E1BCD8 /* MyColorMemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColorMemoAppUITests.swift; sourceTree = "<group>"; };
+		4DD169392780983800E1BCD8 /* MyColorMemoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColorMemoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DD169102780983600E1BCD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD169262780983800E1BCD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD169302780983800E1BCD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DD1690A2780983600E1BCD8 = {
+			isa = PBXGroup;
+			children = (
+				4DD169152780983600E1BCD8 /* MyColorMemoApp */,
+				4DD1692C2780983800E1BCD8 /* MyColorMemoAppTests */,
+				4DD169362780983800E1BCD8 /* MyColorMemoAppUITests */,
+				4DD169142780983600E1BCD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DD169142780983600E1BCD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DD169132780983600E1BCD8 /* MyColorMemoApp.app */,
+				4DD169292780983800E1BCD8 /* MyColorMemoAppTests.xctest */,
+				4DD169332780983800E1BCD8 /* MyColorMemoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DD169152780983600E1BCD8 /* MyColorMemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				4DD169162780983600E1BCD8 /* AppDelegate.swift */,
+				4DD169182780983600E1BCD8 /* SceneDelegate.swift */,
+				4DD1691A2780983600E1BCD8 /* ViewController.swift */,
+				4DD1691C2780983600E1BCD8 /* Main.storyboard */,
+				4DD1691F2780983800E1BCD8 /* Assets.xcassets */,
+				4DD169212780983800E1BCD8 /* LaunchScreen.storyboard */,
+				4DD169242780983800E1BCD8 /* Info.plist */,
+			);
+			path = MyColorMemoApp;
+			sourceTree = "<group>";
+		};
+		4DD1692C2780983800E1BCD8 /* MyColorMemoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DD1692D2780983800E1BCD8 /* MyColorMemoAppTests.swift */,
+			);
+			path = MyColorMemoAppTests;
+			sourceTree = "<group>";
+		};
+		4DD169362780983800E1BCD8 /* MyColorMemoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DD169372780983800E1BCD8 /* MyColorMemoAppUITests.swift */,
+				4DD169392780983800E1BCD8 /* MyColorMemoAppUITestsLaunchTests.swift */,
+			);
+			path = MyColorMemoAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DD169122780983600E1BCD8 /* MyColorMemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD1693D2780983800E1BCD8 /* Build configuration list for PBXNativeTarget "MyColorMemoApp" */;
+			buildPhases = (
+				4DD1690F2780983600E1BCD8 /* Sources */,
+				4DD169102780983600E1BCD8 /* Frameworks */,
+				4DD169112780983600E1BCD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyColorMemoApp;
+			productName = MyColorMemoApp;
+			productReference = 4DD169132780983600E1BCD8 /* MyColorMemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DD169282780983800E1BCD8 /* MyColorMemoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD169402780983800E1BCD8 /* Build configuration list for PBXNativeTarget "MyColorMemoAppTests" */;
+			buildPhases = (
+				4DD169252780983800E1BCD8 /* Sources */,
+				4DD169262780983800E1BCD8 /* Frameworks */,
+				4DD169272780983800E1BCD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DD1692B2780983800E1BCD8 /* PBXTargetDependency */,
+			);
+			name = MyColorMemoAppTests;
+			productName = MyColorMemoAppTests;
+			productReference = 4DD169292780983800E1BCD8 /* MyColorMemoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DD169322780983800E1BCD8 /* MyColorMemoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD169432780983800E1BCD8 /* Build configuration list for PBXNativeTarget "MyColorMemoAppUITests" */;
+			buildPhases = (
+				4DD1692F2780983800E1BCD8 /* Sources */,
+				4DD169302780983800E1BCD8 /* Frameworks */,
+				4DD169312780983800E1BCD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DD169352780983800E1BCD8 /* PBXTargetDependency */,
+			);
+			name = MyColorMemoAppUITests;
+			productName = MyColorMemoAppUITests;
+			productReference = 4DD169332780983800E1BCD8 /* MyColorMemoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DD1690B2780983600E1BCD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					4DD169122780983600E1BCD8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					4DD169282780983800E1BCD8 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 4DD169122780983600E1BCD8;
+					};
+					4DD169322780983800E1BCD8 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 4DD169122780983600E1BCD8;
+					};
+				};
+			};
+			buildConfigurationList = 4DD1690E2780983600E1BCD8 /* Build configuration list for PBXProject "MyColorMemoApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DD1690A2780983600E1BCD8;
+			productRefGroup = 4DD169142780983600E1BCD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DD169122780983600E1BCD8 /* MyColorMemoApp */,
+				4DD169282780983800E1BCD8 /* MyColorMemoAppTests */,
+				4DD169322780983800E1BCD8 /* MyColorMemoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DD169112780983600E1BCD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD169232780983800E1BCD8 /* LaunchScreen.storyboard in Resources */,
+				4DD169202780983800E1BCD8 /* Assets.xcassets in Resources */,
+				4DD1691E2780983600E1BCD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD169272780983800E1BCD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD169312780983800E1BCD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DD1690F2780983600E1BCD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD1691B2780983600E1BCD8 /* ViewController.swift in Sources */,
+				4DD169172780983600E1BCD8 /* AppDelegate.swift in Sources */,
+				4DD169192780983600E1BCD8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD169252780983800E1BCD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD1692E2780983800E1BCD8 /* MyColorMemoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD1692F2780983800E1BCD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD1693A2780983800E1BCD8 /* MyColorMemoAppUITestsLaunchTests.swift in Sources */,
+				4DD169382780983800E1BCD8 /* MyColorMemoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DD1692B2780983800E1BCD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DD169122780983600E1BCD8 /* MyColorMemoApp */;
+			targetProxy = 4DD1692A2780983800E1BCD8 /* PBXContainerItemProxy */;
+		};
+		4DD169352780983800E1BCD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DD169122780983600E1BCD8 /* MyColorMemoApp */;
+			targetProxy = 4DD169342780983800E1BCD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DD1691C2780983600E1BCD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DD1691D2780983600E1BCD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DD169212780983800E1BCD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DD169222780983800E1BCD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DD1693B2780983800E1BCD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DD1693C2780983800E1BCD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DD1693E2780983800E1BCD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Q4AV5RX37;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyColorMemoApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.fykygtr.MyColorMemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DD1693F2780983800E1BCD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Q4AV5RX37;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyColorMemoApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.fykygtr.MyColorMemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DD169412780983800E1BCD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Q4AV5RX37;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.fykygtr.MyColorMemoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyColorMemoApp.app/MyColorMemoApp";
+			};
+			name = Debug;
+		};
+		4DD169422780983800E1BCD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Q4AV5RX37;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.fykygtr.MyColorMemoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyColorMemoApp.app/MyColorMemoApp";
+			};
+			name = Release;
+		};
+		4DD169442780983800E1BCD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Q4AV5RX37;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.fykygtr.MyColorMemoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyColorMemoApp;
+			};
+			name = Debug;
+		};
+		4DD169452780983800E1BCD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Q4AV5RX37;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.fykygtr.MyColorMemoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyColorMemoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DD1690E2780983600E1BCD8 /* Build configuration list for PBXProject "MyColorMemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD1693B2780983800E1BCD8 /* Debug */,
+				4DD1693C2780983800E1BCD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD1693D2780983800E1BCD8 /* Build configuration list for PBXNativeTarget "MyColorMemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD1693E2780983800E1BCD8 /* Debug */,
+				4DD1693F2780983800E1BCD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD169402780983800E1BCD8 /* Build configuration list for PBXNativeTarget "MyColorMemoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD169412780983800E1BCD8 /* Debug */,
+				4DD169422780983800E1BCD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD169432780983800E1BCD8 /* Build configuration list for PBXNativeTarget "MyColorMemoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD169442780983800E1BCD8 /* Debug */,
+				4DD169452780983800E1BCD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DD1690B2780983600E1BCD8 /* Project object */;
+}
