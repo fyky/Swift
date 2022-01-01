@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		4DD169172780983600E1BCD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD169162780983600E1BCD8 /* AppDelegate.swift */; };
 		4DD169192780983600E1BCD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD169182780983600E1BCD8 /* SceneDelegate.swift */; };
-		4DD1691B2780983600E1BCD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD1691A2780983600E1BCD8 /* ViewController.swift */; };
 		4DD1691E2780983600E1BCD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD1691C2780983600E1BCD8 /* Main.storyboard */; };
 		4DD169202780983800E1BCD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DD1691F2780983800E1BCD8 /* Assets.xcassets */; };
 		4DD169232780983800E1BCD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD169212780983800E1BCD8 /* LaunchScreen.storyboard */; };
 		4DD1692E2780983800E1BCD8 /* MyColorMemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD1692D2780983800E1BCD8 /* MyColorMemoAppTests.swift */; };
 		4DD169382780983800E1BCD8 /* MyColorMemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD169372780983800E1BCD8 /* MyColorMemoAppUITests.swift */; };
 		4DD1693A2780983800E1BCD8 /* MyColorMemoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD169392780983800E1BCD8 /* MyColorMemoAppUITestsLaunchTests.swift */; };
+		4DD169472780A04600E1BCD8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD169462780A04600E1BCD8 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 		4DD169132780983600E1BCD8 /* MyColorMemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyColorMemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD169162780983600E1BCD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DD169182780983600E1BCD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4DD1691A2780983600E1BCD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4DD1691D2780983600E1BCD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DD1691F2780983800E1BCD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DD169222780983800E1BCD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		4DD169332780983800E1BCD8 /* MyColorMemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyColorMemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD169372780983800E1BCD8 /* MyColorMemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColorMemoAppUITests.swift; sourceTree = "<group>"; };
 		4DD169392780983800E1BCD8 /* MyColorMemoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColorMemoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4DD169462780A04600E1BCD8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +101,11 @@
 			children = (
 				4DD169162780983600E1BCD8 /* AppDelegate.swift */,
 				4DD169182780983600E1BCD8 /* SceneDelegate.swift */,
-				4DD1691A2780983600E1BCD8 /* ViewController.swift */,
 				4DD1691C2780983600E1BCD8 /* Main.storyboard */,
 				4DD1691F2780983800E1BCD8 /* Assets.xcassets */,
 				4DD169212780983800E1BCD8 /* LaunchScreen.storyboard */,
 				4DD169242780983800E1BCD8 /* Info.plist */,
+				4DD169462780A04600E1BCD8 /* HomeViewController.swift */,
 			);
 			path = MyColorMemoApp;
 			sourceTree = "<group>";
@@ -258,9 +258,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DD1691B2780983600E1BCD8 /* ViewController.swift in Sources */,
 				4DD169172780983600E1BCD8 /* AppDelegate.swift in Sources */,
 				4DD169192780983600E1BCD8 /* SceneDelegate.swift in Sources */,
+				4DD169472780A04600E1BCD8 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
