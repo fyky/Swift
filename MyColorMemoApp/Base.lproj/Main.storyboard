@@ -16,22 +16,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="親画面です。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BPn-Hg-lXq">
-                                <rect key="frame" x="155" y="438" width="104" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Oyk-Ao-Vyn">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Oyk-Ao-Vyn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="eNb-GX-Dk4"/>
+                            <constraint firstItem="Oyk-Ao-Vyn" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="jT4-WH-GAx"/>
+                            <constraint firstItem="Oyk-Ao-Vyn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="np8-QJ-olP"/>
+                            <constraint firstItem="Oyk-Ao-Vyn" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="u7O-VV-PPJ"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="AhD-pO-KdI"/>
+                    <connections>
+                        <outlet property="tableView" destination="Oyk-Ao-Vyn" id="xou-Uy-Nsh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-249" y="130"/>
+            <point key="canvasLocation" x="-249.27536231884059" y="129.91071428571428"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="DIa-nO-ZSA">
