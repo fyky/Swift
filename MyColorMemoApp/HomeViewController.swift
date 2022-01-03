@@ -14,6 +14,13 @@ class HomeViewController: UIViewController {
     
     var memoDataList: [MemoDataModel] = []
     
+    // データの表示形式を変える
+    var dateFormat: DateFormatter {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy年MM月dd日"
+        return dateFormatter
+    }
+    
     override func viewDidLoad() {
         // このクラスの画面が表示される際に呼び出されるメソッド
         // 画面の表示・非表示に応じて実行されるメソッドを”ライフサイクルメソッド”と呼ぶ
@@ -43,7 +50,7 @@ extension HomeViewController: UITableViewDataSource {
         // メモの内容
         cell.textLabel?.text = memoDataModel.text
         // 日付（サブタイトル）
-        cell.detailTextLabel?.text = "\(memoDataModel.recordDate)"
+        cell.detailTextLabel?.text = dateFormat.string(from: memoDataModel.recordDate)
         return cell
     }
 }
@@ -52,6 +59,8 @@ extension HomeViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let memoDetailViewController = storyboard.instantiateViewController(identifier: "MemoDetailViewController") as! MemoDetailViewController
+        let memoData = memoDataList[indexPath.row]
+        memoDetailViewController.configure(memo: memoData)
         tableView.deselectRow(at: indexPath, animated: true)
         navigationController?.pushViewController(memoDetailViewController, animated: true)
     }
