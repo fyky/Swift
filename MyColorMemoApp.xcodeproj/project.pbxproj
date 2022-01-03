@@ -17,6 +17,7 @@
 		4DD1693A2780983800E1BCD8 /* MyColorMemoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD169392780983800E1BCD8 /* MyColorMemoAppUITestsLaunchTests.swift */; };
 		4DD169472780A04600E1BCD8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD169462780A04600E1BCD8 /* HomeViewController.swift */; };
 		4DD169492781ECA300E1BCD8 /* MemoDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD169482781ECA300E1BCD8 /* MemoDataModel.swift */; };
+		4DD1694B27832CA400E1BCD8 /* MemoDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD1694A27832CA300E1BCD8 /* MemoDataViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		4DD169392780983800E1BCD8 /* MyColorMemoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColorMemoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4DD169462780A04600E1BCD8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4DD169482781ECA300E1BCD8 /* MemoDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoDataModel.swift; sourceTree = "<group>"; };
+		4DD1694A27832CA300E1BCD8 /* MemoDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoDataViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				4DD169242780983800E1BCD8 /* Info.plist */,
 				4DD169462780A04600E1BCD8 /* HomeViewController.swift */,
 				4DD169482781ECA300E1BCD8 /* MemoDataModel.swift */,
+				4DD1694A27832CA300E1BCD8 /* MemoDataViewController.swift */,
 			);
 			path = MyColorMemoApp;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				4DD169172780983600E1BCD8 /* AppDelegate.swift in Sources */,
 				4DD169192780983600E1BCD8 /* SceneDelegate.swift in Sources */,
 				4DD169472780A04600E1BCD8 /* HomeViewController.swift in Sources */,
+				4DD1694B27832CA400E1BCD8 /* MemoDataViewController.swift in Sources */,
 				4DD169492781ECA300E1BCD8 /* MemoDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

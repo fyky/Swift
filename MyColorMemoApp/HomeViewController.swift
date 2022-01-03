@@ -18,6 +18,7 @@ class HomeViewController: UIViewController {
         // このクラスの画面が表示される際に呼び出されるメソッド
         // 画面の表示・非表示に応じて実行されるメソッドを”ライフサイクルメソッド”と呼ぶ
         tableView.dataSource = self
+        tableView.delegate = self
         // フッター指定
         // tableView.tableFooterView = UIView()
         setMemoData()
@@ -47,3 +48,11 @@ extension HomeViewController: UITableViewDataSource {
     }
 }
 
+extension HomeViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let memoDetailViewController = storyboard.instantiateViewController(identifier: "MemoDetailViewController") as! MemoDetailViewController
+        tableView.deselectRow(at: indexPath, animated: true)
+        navigationController?.pushViewController(memoDetailViewController, animated: true)
+    }
+}
