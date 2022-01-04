@@ -1,6 +1,5 @@
 # Swift演習
 ## メモアプリ
-<br>
-### pushしていないもの
+## pushしていないもの
 (.gitignore)<br>
 Pods一式
