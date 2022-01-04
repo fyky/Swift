@@ -29,13 +29,28 @@ class HomeViewController: UIViewController {
         // フッター指定
         // tableView.tableFooterView = UIView()
         setMemoData()
+        setNavigationBarButton()
     }
     
     func setMemoData() {
         for i in 1...5 {
-            let memoDataModel = MemoDataModel(text: "このメモは\(i)番目のメモです。", recordDate: Date())
+            let memoDataModel = MemoDataModel()
+            memoDataModel.text = "このメモは\(i)番目のメモです。"
+            memoDataModel.recordDate = Date()
             memoDataList.append(memoDataModel)
         }
+    }
+    
+    @objc func tapAddButton() {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let memoDetailViewController = storyboard.instantiateViewController(identifier: "MemoDetailViewController") as! MemoDetailViewController
+        navigationController?.pushViewController(memoDetailViewController, animated: true)
+    }
+    
+    func setNavigationBarButton() {
+        let buttonActionSelector: Selector = #selector(tapAddButton)
+        let rightBarButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: buttonActionSelector)
+        navigationItem.rightBarButtonItem = rightBarButton
     }
 }
 
