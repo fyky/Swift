@@ -1,5 +1,5 @@
 # Swift演習
 ## メモアプリ
 <br>
-### .gitignore
+## .gitignore
 Pods一式
