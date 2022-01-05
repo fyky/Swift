@@ -18,7 +18,7 @@ class HomeViewController: UIViewController {
     // データの表示形式を変える
     var dateFormat: DateFormatter {
         let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "yyyy年MM月dd日"
+        dateFormatter.dateFormat = "yyyy年MM月dd日　HH時mm分"
         return dateFormatter
     }
     
@@ -31,6 +31,7 @@ class HomeViewController: UIViewController {
         // フッター指定
         // tableView.tableFooterView = UIView()
         setNavigationBarButton()
+//        setLeftNavigationBarButton()
     }
    
     override func viewWillAppear(_ animated: Bool) {
@@ -56,6 +57,16 @@ class HomeViewController: UIViewController {
         let rightBarButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: buttonActionSelector)
         navigationItem.rightBarButtonItem = rightBarButton
     }
+    
+    // テーマカラー変更ボタン
+//    func setLeftNavigationBarButton() {
+//        let buttonActionSelector: Selector = #selector(didTapColorSettingButton)
+//        let leftButtonImage = UIImage(named: "colorSettingIcon")
+//        let leftButton = UIBarButtonItem(image: leftButtonImage, style: .plain, target: self, action: buttonActionSelector)
+//        navigationItem.leftBarButtonItem = leftButton
+//    }
+//
+//    @objc func didTapColorSettingButton() {}
 }
 
 extension HomeViewController: UITableViewDataSource {

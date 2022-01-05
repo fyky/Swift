@@ -19,7 +19,7 @@ class MemoDetailViewController: UIViewController {
     // データの表示形式を変える
     var dateFormat: DateFormatter {
         let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "yyyy年MM月dd日"
+        dateFormatter.dateFormat = "yyyy年MM月dd日　HH時mm分"
         return dateFormatter
     }
     
