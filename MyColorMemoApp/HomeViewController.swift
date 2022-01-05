@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit // UIに関するクラスが格納されたモジュール
+import RealmSwift
 
 // HomeViewControllerにUIViewControllerを”クラス継承”する
 class HomeViewController: UIViewController {
@@ -21,6 +22,7 @@ class HomeViewController: UIViewController {
         return dateFormatter
     }
     
+    // メモリが割り当てられた1回目しか生成されないview
     override func viewDidLoad() {
         // このクラスの画面が表示される際に呼び出されるメソッド
         // 画面の表示・非表示に応じて実行されるメソッドを”ライフサイクルメソッド”と呼ぶ
@@ -28,17 +30,19 @@ class HomeViewController: UIViewController {
         tableView.delegate = self
         // フッター指定
         // tableView.tableFooterView = UIView()
-        setMemoData()
         setNavigationBarButton()
+    }
+   
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        setMemoData()
+        tableView.reloadData()
     }
     
     func setMemoData() {
-        for i in 1...5 {
-            let memoDataModel = MemoDataModel()
-            memoDataModel.text = "このメモは\(i)番目のメモです。"
-            memoDataModel.recordDate = Date()
-            memoDataList.append(memoDataModel)
-        }
+        let realm = try! Realm()
+        let result = realm.objects(MemoDataModel.self)
+        memoDataList = Array(result)
     }
     
     @objc func tapAddButton() {
